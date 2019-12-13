@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  mycontainer:
+    image: nodeappcompose
+    build: .
+    volumes:
+      - './home/bamboo/bamboo-agent-home/xml-data/build-dir/CICDW-NOD-JOB1/:/usr/src/app'  
