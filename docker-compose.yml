@@ -5,4 +5,4 @@ services:
     image: nodeappcompose
     build: .
     volumes:
-      - './home/bamboo/bamboo-agent-home/xml-data/build-dir/CICDW-NOD-JOB1/:/usr/src/app'  
+      - '/root/Results:/usr/src/app'  
